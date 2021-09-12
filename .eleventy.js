@@ -21,6 +21,24 @@ module.exports = function (config) {
 
   config.setDataDeepMerge(true);
 
+  config.addCollection('resumeEducation', (collection) => {
+    return collection
+      .getFilteredByGlob('./src/pages/resume/content/education/*.md')
+      .sort((a, b) => new Date(b.data.start) - new Date(a.data.start));
+  });
+
+  config.addCollection('resumeExperience', (collection) => {
+    return collection
+      .getFilteredByGlob('./src/pages/resume/content/experience/*.md')
+      .sort((a, b) => new Date(b.data.start) - new Date(a.data.start));
+  });
+
+  config.addCollection('resumeSkills', (collection) => {
+    return collection
+      .getFilteredByGlob('./src/pages/resume/content/skills/*.md')
+      .sort((a, b) => a.fileSlug.localeCompare(b.fileSlug));
+  });
+
   return {
     dir: {
       input: './src',

@@ -1,0 +1,54 @@
+<section class="print:page-break-inside-avoid">
+  <h2 class="pb-2 border-b border-gray-500">Work Experience</h2>
+  <ol
+    class="
+      relative
+      mt-8
+      pl-4
+      space-y-8
+      before:block
+      before:w-px
+      before:absolute
+      before:top-9
+      before:left-4
+      before:bottom-0
+      before:fading-end
+    "
+  >
+    {% for work in collections.resumeExperience %}
+    <li
+      class="
+        relative
+        pl-8
+        before:block
+        before:w-2.5
+        before:h-2.5
+        before:absolute
+        before:top-9
+        before:left-0
+        before:rounded-full
+        before:bg-secondary
+        before:-translate-x-1/2
+      "
+    >
+      <article>
+        <div class="flex flex-col">
+          <h3 class="mt-1">{{ work.data.title }}</h3>
+          <p class="order-first text-sm text-gray-400 uppercase tracking-wider">
+            <!-- prettier-ignore -->
+            {{ work.data.start | parseDate | formatDate('MM.yyyy') }}
+            -
+            {% if work.data.end %}
+            {{ work.data.end | parseDate | formatDate('MM.yyyy') }}
+            {% else %}
+            Present
+            {% endif %}
+          </p>
+          <p class="text-lg">{{ work.data.organization }} &middot; {{ work.data.location }}</p>
+        </div>
+        <div class="prose mt-2 max-w-none">{{ work.templateContent | safe }}</div>
+      </article>
+    </li>
+    {% endfor %}
+  </ol>
+</section>

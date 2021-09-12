@@ -1,0 +1,11 @@
+<section class="print:page-break-inside-avoid">
+  <h2 class="pb-2 border-b border-gray-500">Skills</h2>
+  <div class="mt-8 sm:flex sm:flex-wrap sm:mt-4">
+    {% for skill in collections.resumeSkills %}
+    <div class="prose mt-4 max-w-none sm:w-1/2 sm:pr-4 print:page-break-inside-avoid">
+      <h3>{{ skill.data.title }}</h3>
+      {{ skill.templateContent | safe }}
+    </div>
+    {% endfor %}
+  </div>
+</section>

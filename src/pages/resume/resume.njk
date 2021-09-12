@@ -1,0 +1,14 @@
+---
+layout: default
+permalink: /
+
+eleventyComputed:
+  description: Online Resume of {{ me.name }}
+---
+
+<div>
+  <!-- prettier-ignore -->
+  {% include './header.njk' %}
+  {% include './content/content.njk' %}
+  {% include './footer.njk' %}
+</div>

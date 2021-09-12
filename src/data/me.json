@@ -1,0 +1,20 @@
+{
+  "name": "Pikachu Pokemon",
+  "email": "pikachu@pokemon.com",
+  "website": "https://pikachu.github.io",
+  "location": "PokeTown, PT",
+  "occupation": "Lightning Pokemon",
+  "avatar": "avatar.png",
+  "social": [
+    {
+      "name": "Github",
+      "user": "@pikachu",
+      "url": "https://github.com/pikachu"
+    },
+    {
+      "name": "LinkedIn",
+      "user": "Pikachu",
+      "url": "https://www.linkedin.com/in/pikachu"
+    }
+  ]
+}
