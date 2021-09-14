@@ -2,9 +2,11 @@
 tags: about-me
 ---
 
-**Pikachu** (ピカチュウ *Pikachuu*) is an Electric-type Pokémon which was introduced in Generation I.
-Pikachu is renowned for being the most well-known and recognizable Pokémon. Over the years,
-Pikachu has become so popular that it serves as the Pokémon franchise mascot. It is the Version
-Mascot and Starter Pokémon for the game Pokémon Yellow and its remake, Pokémon: Let's Go,
-Pikachu!. It is also well known from the anime, where Ash Ketchum, the protagonist, owns a
-Pikachu.
+I am a software engineer, who is interested in functional programming and static types.
+Programming is my passion - the idea of creating digital applications with a power of a mind and technology fascinates me.
+
+Professionally I am mostly working with TypeScript, building both frontend and backend applications.
+In my personal projects I prefer to use Haskell and explore it's type system.
+
+Persistent. Attentive to details. Goal-oriented. Supportive. Agile.  
+At least that's what my colleagues are saying.
