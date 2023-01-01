@@ -1,5 +1,5 @@
 ---
-title: Full Stack Engineer
+title: Full Stack Software Engineer
 organization: Freelance
 location: Moscow, Russia
 start: 2014-07

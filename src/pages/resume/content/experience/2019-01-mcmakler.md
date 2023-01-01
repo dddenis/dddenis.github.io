@@ -1,8 +1,9 @@
 ---
-title: Full Stack Engineer
+title: Full Stack Software Engineer
 organization: McMakler
 location: Berlin, Germany
 start: 2019-01
+end: 2022-03
 ---
 
 Led rewrite of graphql server from JavaScript to TypeScript, enforcing strong typing and leveraging functional programming principles with the help of `fp-ts` library.

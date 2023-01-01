@@ -1,5 +1,5 @@
 ---
-title: Full Stack Engineer
+title: Full Stack Software Engineer
 organization: Moscow Cheesecake
 location: Moscow, Russia
 start: 2010-09

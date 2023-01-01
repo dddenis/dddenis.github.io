@@ -2,15 +2,15 @@
 title: Technologies
 ---
 
-- TypeScript (and therefore JavaScript)
-- NodeJS
-- GraphQL
-- Haskell (intermediate)
-- Rust (basic)
-- Frontend (HTML, CSS, React, Webpack, NextJS)
+- TypeScript (and therefore JavaScript) [advanced]
+- Haskell [intermediate]
+- Rust [intermediate]
+- Frontend (HTML, CSS, React, Svelte, NextJS, Webpack, Vite, etc.)
+- Backend (NodeJS, NestJS, Express, Apollo, etc.)
+- API (REST, GraphQL, gRPC, WebSockets)
 - Databases (PostgreSQL, MongoDB)
-- Cloud (GCP)
-- Git
-- Docker
+- Cloud (AWS, GCP)
 - CI/CD (GitHub Actions, GitLab CI)
+- DevOps (Docker, Terraform, Kubernetes)
+- Git
 - Nix (NixOS is my primary OS)
