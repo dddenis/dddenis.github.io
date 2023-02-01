@@ -1,23 +1,17 @@
 {
   "name": "dddenis.github.io",
+  "type": "module",
   "packageManager": "yarn@3.4.1",
   "scripts": {
-    "dev": "yarn dev:eleventy & yarn dev:css",
-    "dev:eleventy": "eleventy --serve",
-    "dev:css": "yarn css --watch",
-    "build": "NODE_ENV=production eleventy && yarn build:css",
-    "build:css": "yarn css --minify",
-    "css": "tailwind --input ./src/styles/styles.css --output ./dist/styles.css"
+    "format": "prettier --plugin-search-dir . --write .",
+    "dev": "astro dev",
+    "build": "astro check && tsc --noEmit && astro build",
+    "preview": "astro preview"
   },
   "devDependencies": {
-    "@11ty/eleventy": "0.12.1",
-    "@fortawesome/fontawesome-free": "5.15.4",
-    "@sardine/eleventy-plugin-tinysvg": "1.1.0",
-    "@tailwindcss/typography": "0.4.1",
-    "autoprefixer": "10.3.4",
-    "date-fns": "2.23.0",
-    "postcss": "8.3.6",
-    "prettier": "2.4.0",
-    "tailwindcss": "2.2.15"
+    "astro": "^2.0.5",
+    "prettier": "^2.8.3",
+    "prettier-plugin-astro": "^0.8.0",
+    "typescript": "^4.9.5"
   }
 }

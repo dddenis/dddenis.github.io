@@ -1,28 +1,28 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  mode: 'jit',
+  mode: "jit",
   darkMode: false,
-  purge: ['./src/**/*.njk'],
+  purge: ["./src/**/*.njk"],
   theme: {
     extend: {
       colors: {
-        primary: '#005b96',
-        secondary: '#fc6767',
+        primary: "#005b96",
+        secondary: "#fc6767",
       },
       fontFamily: {
-        sans: ['Inter', ...defaultTheme.fontFamily.sans],
-        serif: ['Merriweather', ...defaultTheme.fontFamily.sans],
+        sans: ["Inter", ...defaultTheme.fontFamily.sans],
+        serif: ["Merriweather", ...defaultTheme.fontFamily.sans],
       },
       inset: {
-        '1/20': '5%',
+        "1/20": "5%",
       },
       screens: {
         print: {
-          raw: 'print',
+          raw: "print",
         },
       },
     },
   },
-  plugins: [require('@tailwindcss/typography')],
+  plugins: [require("@tailwindcss/typography")],
 };
