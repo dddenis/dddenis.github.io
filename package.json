@@ -1,6 +1,6 @@
 {
   "name": "dddenis.github.io",
-  "packageManager": "yarn@3.0.2",
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "dev": "yarn dev:eleventy & yarn dev:css",
     "dev:eleventy": "eleventy --serve",
