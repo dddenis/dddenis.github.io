@@ -10,7 +10,7 @@
 
       name = "dddenis.github.io";
       preOverlays =
-        [ devshell.overlay (final: prev: { nodejs = prev.nodejs-14_x; }) ];
+        [ devshell.overlay (final: prev: { nodejs = prev.nodejs-18_x; }) ];
       systems = flake-utils.lib.defaultSystems;
 
       shell = { pkgs }:
